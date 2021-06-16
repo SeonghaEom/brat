@@ -1,0 +1,85 @@
+T1	Entity 0 10	Algorithms
+T2	Entity 43 59	writing software
+T3	Entity 61 79	analyzing a genome
+T4	Entity 81 104	predicting traffic jams
+T5	Entity 106 147	producing automatic movie recommendations
+T6	Entity 157 178	surfing the Internet,
+T7	Entity 199 209	algorithms
+R1	Coreference Arg1:T1 Arg2:T7	
+R2	Abstract-Instance Arg1:T1 Arg2:T2	
+R3	Abstract-Instance Arg1:T1 Arg2:T3	
+R4	Abstract-Instance Arg1:T1 Arg2:T4	
+R5	Abstract-Instance Arg1:T1 Arg2:T5	
+R6	Abstract-Instance Arg1:T1 Arg2:T6	
+T8	Entity 234 250	computer science
+T9	Entity 256 266	algorithms
+R7	Coreference Arg1:T1 Arg2:T9	
+T10	Entity 283 293	algorithms
+R8	Coreference Arg1:T9 Arg2:T10	
+T11	Entity 298 313	data structures
+T12	Entity 342 344	CS
+R9	Coreference Arg1:T8 Arg2:T12	
+T13	Entity 384 394	algorithms
+R10	Coreference Arg1:T10 Arg2:T13	
+T14	OpenRelation 1880 1889	relate to
+T15	Entity 1890 1898	diseases
+T16	Entity 1875 1879	they
+T17	Entity 1779 1798	biomedical problems
+T18	Entity 1735 1744	algorithm
+T19	OpenRelation 1761 1768	solving
+R11	OR Arg1:T18 Arg2:T19	
+R12	OR2 Arg1:T19 Arg2:T17	
+R13	OR Arg1:T16 Arg2:T14	
+R14	OR2 Arg1:T14 Arg2:T15	
+T20	Entity 2087 2140	assembling the genome from millions of tiny fragments
+T21	Entity 2052 2078	solving practical problems
+R15	Abstract-Instance Arg1:T21 Arg2:T20	
+T22	Entity 2762 2777	sorting problem
+T23	Entity 2818 2840	ifferent running times
+R16	Object-Attribute Arg1:T22 Arg2:T23	
+T24	Entity 1236 1255	advanced algorithms
+T25	Entity 1264 1284	deep neural networks
+T26	Entity 1300 1314	huge data sets
+T27	Entity 1119 1152	simple machine learning algorithm
+T28	Entity 1158 1175	linear regression
+R17	Abstract-Instance Arg1:T27 Arg2:T28	
+R18	Abstract-Instance Arg1:T24 Arg2:T25	
+R19	Purpose-UsedFor Arg1:T25 Arg2:T26	
+T29	Entity 1335 1355	accurate predictions
+T30	Entity 1315 1319	they
+R20	Coreference Arg1:T24 Arg2:T30	
+R21	Cause-Effect Arg1:T30 Arg2:T29	
+T31	Entity 1418 1424	vision
+T32	Entity 1429 1447	speech recognition
+T33	Entity 1467 1477	algorithms
+T34	Entity 1394 1400	humans
+T35	OpenRelation 1383 1393	outperform
+R22	OR Arg1:T33 Arg2:T35	
+R23	OR2 Arg1:T35 Arg2:T34	
+T36	Entity 657 671	Facebook posts
+T37	Entity 632 645	search engine
+T38	Entity 610 618	webpages
+T39	OpenRelation 620 629	ndexed by
+R24	OR Arg1:T38 Arg2:T39	
+R25	OR2 Arg1:T39 Arg2:T37	
+R26	OR2 Arg1:T39 Arg2:T36	
+T40	Entity 847 868	data science problems
+T41	Entity 875 906	ranking internet search results
+T42	Entity 908 933	predicting road accidents
+T43	Entity 939 967	recommending movies to users
+R27	Abstract-Instance Arg1:T40 Arg2:T41	
+R28	Abstract-Instance Arg1:T40 Arg2:T42	
+R29	Abstract-Instance Arg1:T40 Arg2:T43	
+T44	Entity 970 988	dvanced algorithms
+T45	Entity 1009 1033	excellent search quality
+T46	Entity 1035 1059	high prediction accuracy
+T47	Entity 1065 1097	to make relevant recommendations
+R30	Cause-Effect Arg1:T44 Arg2:T45	
+R31	Cause-Effect Arg1:T44 Arg2:T46	
+R32	Cause-Effect Arg1:T44 Arg2:T47	
+T48	Entity 683 707	algorithmic improvements
+T49	Entity 730 743	these systems
+T50	OpenRelation 744 753	practical
+R33	OR Arg1:T48 Arg2:T50	
+R34	OR2 Arg1:T50 Arg2:T49	
+R35	Coreference Arg1:T38 Arg2:T49	
